@@ -1,1 +1,11 @@
-@use '../custom';
+@use '../custom' as *;
+
+.menu {
+    a{
+        color: $white !important; 
+        font-weight: 700;
+    }
+    li {
+        padding:0 0.7rem;
+    }
+}
