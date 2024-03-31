@@ -1,6 +1,7 @@
 @use '../custom' as *;
 
 .menu {
+    margin-bottom: 0 auto;
     a{
         color: $white !important; 
         font-weight: 700;

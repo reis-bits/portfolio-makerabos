@@ -1,0 +1,68 @@
+@use '../custom' as *;
+
+.intro {
+    background: $primary;
+    img {
+        width: 70%;
+    }
+    .intro-text {
+        text-align: justify;
+        h1 {
+            font-size: 2rem;
+            color: white;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.3rem;
+            color: white;
+        }
+        a {
+            border-radius: 200px;
+            padding-top: 15px;
+            font-size: 1.2rem;
+            width: 280px;
+            height: 60px;
+            font-weight: bold;
+        }
+    }
+
+}
+
+@media(min-width:768px) {
+    .intro {
+        img {
+            width: 45%;
+        }
+
+        .intro-text {
+            width: 40%;
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                font-size: 1.5rem
+            }
+        }
+    }
+}
+
+
+@media(min-width:1200px) {
+    .intro {
+        img {
+            width: 30%;
+        }
+        .intro-text {
+            width: 30%;
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
