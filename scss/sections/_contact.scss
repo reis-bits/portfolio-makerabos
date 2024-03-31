@@ -1,0 +1,50 @@
+@use '../custom' as *;
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 492px;
+    text-align: center;
+    font-family: $font-grande;
+        h1 {
+            font-size: 4rem;
+            color: white;
+            font-weight: 800;
+        }
+
+        h4 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: white;
+        }
+        a {
+            border-radius: 200px;
+            font-size: 1.8rem;
+            width: 280px;
+            height: 60px;
+            font-weight: 600;
+            .paragrafo {
+                padding-top: 14px;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+@media(min-width:768px) {
+    .contato {
+        min-height: 576px;
+    }
+}
+
+
+@media(min-width:1200px) {
+    .contato {
+        min-height: 768px;
+    }
+}

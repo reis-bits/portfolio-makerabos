@@ -13,6 +13,6 @@
 @use 'sections/contact';
 @use 'sections/footer';
 
-main {
+body, main {
     background: $primary;
 }

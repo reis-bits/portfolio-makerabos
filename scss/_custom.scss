@@ -19,5 +19,10 @@ $black:    #000;
 $primary:   $verdemakerabos;
 $secondary: $verdemakebos;
 
+//Fontes
+
+$font-textos: 'Reddit Mono', 'monospace';
+$font-grande: 'Montserrat' 'sans-serif';
+
 //Import bootstrap5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

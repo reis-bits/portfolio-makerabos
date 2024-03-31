@@ -2,6 +2,7 @@
 
 .intro {
     background: $primary;
+    font-family: $font-textos;
     img {
         width: 70%;
     }
@@ -19,7 +20,7 @@
         }
         a {
             border-radius: 200px;
-            padding-top: 15px;
+            padding-top: 16px;
             font-size: 1.2rem;
             width: 280px;
             height: 60px;
@@ -52,10 +53,10 @@
 @media(min-width:1200px) {
     .intro {
         img {
-            width: 30%;
+            width: 20%;
         }
         .intro-text {
-            width: 30%;
+            width: 40%;
             h1 {
                 font-size: 3rem;
             }
