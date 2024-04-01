@@ -11861,9 +11861,35 @@ textarea.form-control-lg {
 .intro {
   background: #1F3C38;
   font-family: "Reddit Mono", "monospace";
+  /*#perfil:hover {
+      img.make {
+          opacity: 0;
+          display: none;
+          width: 100%;
+          transition: opacity 0.5s, display 0.5s;
+      }
+      img.make-hover {
+          opacity: 100;
+          display: block;
+          width: 100%;
+          transition: opacity 0.5s, display 0.5s;
+      }
+  }*/
 }
-.intro img {
+.intro #perfil {
   width: 70%;
+}
+.intro #perfil img.make {
+  opacity: 100;
+  display: block;
+  width: 100%;
+  transition: opacity 0.5s, display 0.5s;
+}
+.intro #perfil img.make-hover {
+  opacity: 0;
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s, display 0.5s;
 }
 .intro .intro-text {
   text-align: justify;
@@ -11887,8 +11913,11 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 768px) {
-  .intro img {
+  .intro #perfil {
     width: 45%;
+  }
+  .intro #perfil img {
+    width: 100%;
   }
   .intro .intro-text {
     width: 40%;
@@ -11901,8 +11930,11 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1200px) {
-  .intro img {
+  .intro #perfil {
     width: 20%;
+  }
+  .intro #perfil img {
+    width: 100;
   }
   .intro .intro-text {
     width: 40%;

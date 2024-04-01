@@ -3,11 +3,39 @@
 .intro {
     background: $primary;
     font-family: $font-textos;
-    img {
+    #perfil {
         width: 70%;
+        img.make {
+            opacity: 100;
+            display: block;
+            width: 100%;
+            transition: opacity 0.5s, display 0.5s;
+        }
+        img.make-hover {
+            opacity: 0;
+            display: none;
+            width: 100%;
+            transition: opacity 0.5s, display 0.5s;
+        }
     }
+    /*#perfil:hover {
+        img.make {
+            opacity: 0;
+            display: none;
+            width: 100%;
+            transition: opacity 0.5s, display 0.5s;
+        }
+        img.make-hover {
+            opacity: 100;
+            display: block;
+            width: 100%;
+            transition: opacity 0.5s, display 0.5s;
+        }
+    }*/
+
     .intro-text {
         text-align: justify;
+
         h1 {
             font-size: 2rem;
             color: white;
@@ -18,6 +46,7 @@
             font-size: 1.3rem;
             color: white;
         }
+
         a {
             border-radius: 200px;
             padding-top: 16px;
@@ -32,12 +61,17 @@
 
 @media(min-width:768px) {
     .intro {
-        img {
+        #perfil {
             width: 45%;
+
+            img {
+                width: 100%;
+            }
         }
 
         .intro-text {
             width: 40%;
+
             h1 {
                 font-size: 3.5rem;
             }
@@ -52,11 +86,16 @@
 
 @media(min-width:1200px) {
     .intro {
-        img {
+        #perfil {
             width: 20%;
+            img {
+                width:100
+            }
         }
+
         .intro-text {
             width: 40%;
+
             h1 {
                 font-size: 3rem;
             }
