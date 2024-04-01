@@ -12014,6 +12014,55 @@ footer a {
   text-decoration: none;
 }
 
+.trabalhos {
+  margin: 0 auto;
+  width: 100%;
+}
+.trabalhos .desenho {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 288px;
+  height: 288px;
+}
+.trabalhos .desenho p {
+  transition: opacity 0.5s;
+  opacity: 0;
+  margin: 0;
+  align-self: center;
+  font-family: "Reddit Mono", "monospace";
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.trabalhos .desenho:hover p {
+  opacity: 100;
+}
+
+@media (min-width: 768px) {
+  .trabalhos {
+    margin: auto;
+    width: 768px;
+  }
+  .trabalhos .desenhos {
+    width: 256px;
+    height: 256px;
+  }
+}
+@media (min-width: 1200px) {
+  .trabalhos {
+    margin: auto;
+    width: 1200px;
+  }
+  .trabalhos .desenhos {
+    width: 300px;
+    height: 300px;
+  }
+}
 body, main {
   background: #1F3C38;
 }
