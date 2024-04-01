@@ -5,7 +5,9 @@
     font-family: $font-textos;
     a{
         color: $white !important; 
-        font-weight: 700;
+        img {
+            width:120px
+        }
     }
     li {
         padding:0 0.7rem;
