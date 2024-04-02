@@ -10,7 +10,6 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 288px;
         height: 288px;
         p{
             transition: opacity 0.5s;
@@ -35,8 +34,7 @@
     .trabalhos {
         margin: auto;
         width: 768px;
-        .desenhos {
-            width: 256px;
+        .desenho {
             height: 256px;
         }
     }
@@ -46,8 +44,7 @@
     .trabalhos {
         margin: auto;
         width: 1200px;
-        .desenhos {
-            width: 300px;
+        .desenho {
             height: 300px;
         }
     }

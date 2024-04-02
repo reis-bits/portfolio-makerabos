@@ -12025,7 +12025,6 @@ footer a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 288px;
   height: 288px;
 }
 .trabalhos .desenho p {
@@ -12048,8 +12047,7 @@ footer a {
     margin: auto;
     width: 768px;
   }
-  .trabalhos .desenhos {
-    width: 256px;
+  .trabalhos .desenho {
     height: 256px;
   }
 }
@@ -12058,8 +12056,7 @@ footer a {
     margin: auto;
     width: 1200px;
   }
-  .trabalhos .desenhos {
-    width: 300px;
+  .trabalhos .desenho {
     height: 300px;
   }
 }
