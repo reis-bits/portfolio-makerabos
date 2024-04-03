@@ -8,11 +8,12 @@
 //Seções
 
 @use 'sections/navbar';
-@use 'sections/comissions';
 @use 'sections/intro';
 @use 'sections/contact';
 @use 'sections/footer';
 @use 'sections/trabalhos';
+@use 'sections/modals';
+@use 'sections/carousel';
 
 body, main {
     background: $primary;

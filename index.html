@@ -19,7 +19,7 @@
             <div class="d-flex">
                 <a class="navbar-brand" href="#"><img src="images/brand.png" alt="Makerabos"></a>
                 <div class="d-flex align-items-center px-2 gap-3 px-md-4 gap-md-4">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#contact-me">Contact</a>
                     <a class="nav-link" href="about-me.html">About me</menu></a>
                 </div>
             </div>
@@ -34,26 +34,27 @@
                 <div class="navbar-nav">
                     <ul class="navbar-nav d-flex flex-row justify-content">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/makerabos/"><i
+                            <a class="nav-link" target="_blank" href="https://www.instagram.com/makerabos/"><i
                                     class="bi bi-instagram"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://twitter.com/makerabos"><i class="bi bi-twitter"></i></a>
+                            <a class="nav-link" target="_blank" href="https://twitter.com/makerabos"><i
+                                    class="bi bi-twitter"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.youtube.com/@makerabos"><i
+                            <a class="nav-link" target="_blank" href="https://www.youtube.com/@makerabos"><i
                                     class="fa-brands fa-youtube"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.behance.net/arthurrodrigues64"><i
+                            <a class="nav-link" target="_blank" href="https://www.behance.net/arthurrodrigues64"><i
                                     class="bi bi-behance"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.artstation.com/makerabos"><i
+                            <a class="nav-link" target="_blank" href="https://www.artstation.com/makerabos"><i
                                     class="fa-brands fa-artstation"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mailto:arth.dequeiroz@gmail.com"><i
+                            <a class="nav-link" target="_blank" href="mailto:arth.dequeiroz@gmail.com"><i
                                     class="fa-regular fa-envelope"></i></a>
                         </li>
                     </ul>
@@ -65,121 +66,839 @@
     <!--MAIN-->
 
     <main class="d-flex flex-column">
+
+        <!--SLIDER-->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators d-flex flex-column justify-content-center align-items-center">
+                <div class="welcome">
+                    <h1 class="text-light">WELCOME!</h1>
+                </div>
+                <div class="indicadores">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+            <div class="carousel-inner d-flex">
+                <div class="carousel-item active"
+                    style="background-image: url(images/carousel/peaspot&peasprout-desktop-carousel.jpg);">
+                </div>
+                <div class="carousel-item" style="background-image: url(images/carousel/aatrox-desktop-carousel.jpg);">
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url(images/carousel/cataclysm-desktop-carousel.jpg);">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--WORK-->
         <article class="trabalhos d-flex flex-row flex-wrap justify-content-center">
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/1.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-1" style="background-image: url(images/1.jpg);">
                 <p>Peaspot & Peasprout characters | Cover art</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/2.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-2" style="background-image: url(images/2.jpg);">
                 <p>Krakenforcer | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/3.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-3" style="background-image: url(images/3.jpg);">
                 <p>Fresno Nightcrawlers! | Poster</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/4.png);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-4" style="background-image: url(images/4.png);">
                 <p>Peaspot & Peasprout #01.5 | Cover art</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/5.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-5" style="background-image: url(images/5.jpg);">
                 <p>Creature Pack #65 | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/6.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-6" style="background-image: url(images/6.jpg);">
                 <p>Cataclysm | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/7.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-7" style="background-image: url(images/7.jpg);">
                 <p>Alho | Fanart</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/8.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-8" style="background-image: url(images/8.jpg);">
                 <p>Aatrox | Fanart</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/9.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-9" style="background-image: url(images/9.jpg);">
                 <p>Max | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/10.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-10" style="background-image: url(images/10.jpg);">
                 <p>El Chupacabra | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/11.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-11" style="background-image: url(images/11.jpg);">
                 <p>Peaspot & Peasprout | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/12.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-12" style="background-image: url(images/12.jpg);">
                 <p>Blue mountain Panther | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/13.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-13" style="background-image: url(images/13.jpg);">
                 <p>Halloween 2021 | Illustration</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/14.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-14" style="background-image: url(images/14.jpg);">
                 <p>Euroa Beast | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/15.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-15" style="background-image: url(images/15.jpg);">
                 <p>Mongolian Death Worm | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/16.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-16" style="background-image: url(images/16.jpg);">
                 <p>Cactus cat | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/17.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-17" style="background-image: url(images/17.jpg);">
                 <p>Hafmaður | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/18.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-18" style="background-image: url(images/18.jpg);">
                 <p>Mapinguari | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/19.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-19" style="background-image: url(images/19.jpg);">
                 <p>Kalalmunu | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/20.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-20" style="background-image: url(images/20.jpg);">
                 <p>Mula-sem-cabeça | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/21.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-21" style="background-image: url(images/21.jpg);">
                 <p>Storsjöodjuret | Illustration</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/22.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-22" style="background-image: url(images/22.jpg);">
                 <p>Olitiau | Illustration</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/23.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-23" style="background-image: url(images/23.jpg);">
                 <p>Gelatinous cube of London Bridge | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/24.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-24" style="background-image: url(images/24.jpg);">
                 <p>Flatwoods Monster | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/25.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-25" style="background-image: url(images/25.jpg);">
                 <p>Turtle Bottoms Monster | Creature design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/26.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-26" style="background-image: url(images/26.jpg);">
                 <p>Hoop Snake | Illustration</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/27.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-27" style="background-image: url(images/27.jpg);">
                 <p>Fresno Nightcrawlers | Illustration</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/28.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-28" style="background-image: url(images/28.jpg);">
                 <p>Powerspike | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/29.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-29" style="background-image: url(images/29.jpg);">
                 <p>Hildred | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/30.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-30" style="background-image: url(images/30.jpg);">
                 <p>Bit-rate | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/31.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-31" style="background-image: url(images/31.jpg);">
                 <p>P&P Banner | Illustration</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/32.png);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-32" style="background-image: url(images/32.png);">
                 <p>Zeus | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/33.png);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-33" style="background-image: url(images/33.png);">
                 <p>Capitão estrela | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/34.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-34" style="background-image: url(images/34.jpg);">
                 <p>Xolas | Character design</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/35.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-35" style="background-image: url(images/35.jpg);">
                 <p>FFA | Cover art</p>
             </div>
-            <div class="desenho col-6 col-md-4 col-xl-3" style="background-image: url(images/36.jpg);">
+            <div class="desenho col-6 col-md-4 col-xl-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#desenho-36" style="background-image: url(images/36.jpg);">
                 <p>Creature pack #44 | Character design</p>
             </div>
         </article>
+        <div id="contact-me" class="contato gap-5 p-5" style="background-image: url(images/peaspot-&-peasprout.png);">
+            <h1>Enjoyed my work?</h1>
+            <h4>Bring your ideas to life!</h4>
+            <a class="btn bg-primary text-light d-flex align-items-center justify-content-around text-center"
+              href="mailto:arth.dequeiroz@gmail.com"><div class="paragrafo"><p>Contact-me</p></div><i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+
+        <!--MODALS-->
+
+        <div id="desenho-1" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Peaspot & Peasprout | Cover art</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/1.jpg" alt="Peaspot & Peasprout">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-2" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header" data-bs-dismiss="modal">
+                        <h3 class="modal-title text-light">Krakenforcer | Character design</h3>
+                        <button class="btn btn-close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/2.jpg" alt="Krakenforcer">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-3" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Fresno Nightcrawlers! | Poster</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/3.jpg" alt="Fresno Nightcrawlers">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-4" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Peaspot & Peasprout #01.5 | Cover art</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/4.png" alt="Peaspot & Peasprout #01.5 | Cover art">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-5" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Creature Pack #65 | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/5.jpg" alt="Creature Pack #65 | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-6" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Cataclysm | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/6.jpg" alt="Cataclysm | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-7" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Alho | Fanart</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/7.jpg" alt="Alho | Fanart">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-8" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Aatrox | Fanart</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/8.jpg" alt="Aatrox | Fanart">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-9" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Max | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/9.jpg" alt="Max | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-10" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">El Chupacabra | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/10.jpg" alt="El Chupacabra | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-10" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">El Chupacabra | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/10.jpg" alt="El Chupacabra | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-11" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Peaspot & Peasprout | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/11.jpg" alt="Peaspot & Peasprout | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-12" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Blue mountain Panther | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/12.jpg" alt="Blue mountain Panther | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-13" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Halloween 2021 | Illustration</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/13.jpg" alt="Halloween 2021 | Illustration">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-14" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Euroa Beast | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/14.jpg" alt="Euroa Beast | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-15" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Mongolian Death Worm | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/15.jpg" alt="Mongolian Death Worm | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-16" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Cactus cat | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/16.jpg" alt="Cactus cat | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-17" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Hafmaður | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/17.jpg" alt="Hafmaður | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-18" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Mapinguari | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/18.jpg" alt="Mapinguari | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-19" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Kalalmunu | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/19.jpg" alt="Kalalmunu | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-20" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Mula-sem-cabeça | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/20.jpg" alt="Mula-sem-cabeça | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-21" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Storsjöodjuret | Illustration</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/21.jpg" alt="Storsjöodjuret | Illustration">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-22" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Olitiau | Illustration</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/22.jpg" alt="Olitiau | Illustration">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-23" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Gelatinous cube of London Bridge | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/23.jpg" alt="Hafmaður | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-24" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Flatwoods Monster | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/24.jpg" alt="Flatwoods Monster | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-25" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Turtle Bottoms Monster | Creature design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/25.jpg" alt="Hafmaður | Creature design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-26" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Hoop Snake | Illustration</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/26.jpg" alt="Hoop Snake | Illustration">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-27" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Fresno Nightcrawlers | Illustration</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/27.jpg" alt="Fresno Nightcrawlers | Illustration">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-28" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Powerspike | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/28.jpg" alt="Powerspike | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-29" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Hildred | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/29.jpg" alt="Hildred | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-30" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Bit-rate | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/30.jpg" alt="Hoop Snake | Illustration">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-31" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">P&P Banner | Illustration</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/31.jpg" alt="P&P Banner | Illustration">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-32" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Zeus | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/32.png" alt="P&P Banner | Illustration">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-33" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Capitão estrela | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/33.png" alt="Capitão estrela | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-34" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Xolas | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/34.jpg" alt="Xolas | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-35" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">FFA | Cover art</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/35.jpg" alt="FFA | Cover art">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desenho-36" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-primary" data-bs-theme="dark">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-light">Creature pack #44 | Character design</h3>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <img class="w-75" src="images/36.jpg" alt="Creature pack #44 | Character design">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
+
     <!--FOOTER-->
+
     <footer class="bg-secondary text-light text-center d-flex align-items-center justify-content-center align-self-end">
-        <p>Designed and coded by <a class="text-light" href="https://github.com/reis-bits">reis-bits</a></p>
+        <p>Designed and coded by <a class="text-light" target="_blank" href="https://github.com/reis-bits">reis-bits</a>
+        </p>
     </footer>
+
     <!--ADICCIONAL SCRIPTS-->
 
     <script src="assets/js/bootstrap.bundle.js"></script>
