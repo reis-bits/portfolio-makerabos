@@ -12012,11 +12012,11 @@ footer p {
 }
 footer a {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 700;
 }
 footer a:hover {
-  text-decoration: underline;
-  font-weight: 600;
+  text-decoration: none;
+  font-weight: 800;
 }
 
 .trabalhos {
