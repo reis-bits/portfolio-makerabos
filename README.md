@@ -1,10 +1,20 @@
-# portfolio-makerabos
- Portfolio de artes do artista digital makerabos, Construído com HTML5, SaSS e Bootstrap.
- Desnvolvimento por Eduardo Reis do perfil reis-bits, no Github
- ![image](https://github.com/reis-bits/portfolio-makerabos/assets/136373029/24cc8418-d171-423f-a9b2-396343bd538f)
- O website comporta 2 sessões endo uma principal apresentando o trabalho e a outra o artista.
- Contém vários links no seu cabeçalho que levm pras redes sociais do dito cujo.
+# Portfolio Makerabos
 
- ![image](https://github.com/reis-bits/portfolio-makerabos/assets/136373029/ffeba94a-ce88-4054-bdd6-0860d9de981e)
-Página principal com trabalhos e modais interativos.
+Trabalho feito para Makerabos, um artista digital. Construído com Bootstrap, SaSS e JavaScript e JQuery.
+##
 
+Desenvolvimento feito por Eduardo Reis, do perfil https://github.com/reis-bits ao longo de vários meses, dividido em várias etapas incluindo:
+
+
+- Conteúdo; <br>
+- Estilização; <br>
+- Responsividade; <br>
+- Interatividade; <br>
+
+O website comporta 2 sessões que armazenam conteúdo informativo sobre o artista e seu trabalho.
+
+![image](https://github.com/user-attachments/assets/cc68d220-8456-48f9-a05e-5ee9eccb4ced)
+Landing page que mostra uma variedade de ilustrações do artista.
+
+![image](https://github.com/user-attachments/assets/9ae7837a-f119-4bd0-bc1d-c6a3efa33725)
+Sessão sobre em que o artista comenta rapidamente sobre sua pessoa e seu trabalho.
