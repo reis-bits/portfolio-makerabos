@@ -1,6 +1,6 @@
 # Portfolio Makerabos
 
-Trabalho feito para Makerabos, um artista digital. Construído com Bootstrap, SaSS e JavaScript e JQuery.
+Trabalho feito para Makerabos, um artista digital. Construído com Bootstrap, SaSS e JQuery.
 ##
 
 Desenvolvimento feito por Eduardo Reis, do perfil https://github.com/reis-bits ao longo de vários meses, dividido em várias etapas incluindo:
