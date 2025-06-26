@@ -1,6 +1,6 @@
 {
   "name": "portfolio-makerabos",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Artwork portfolio of the digital artist, Makerabos",
   "main": "index.js",
   "scripts": {
@@ -14,12 +14,12 @@
   "author": "reis-bits",
   "license": "MIT",
   "devDependencies": {
-    "sass": "^1.72.0"
+    "sass": "^1.89.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
     "autoprefixer": "^10.4.19",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.7",
     "postcss-cli": "^11.0.0"
   }
 }
